@@ -113,8 +113,8 @@ int fft(char fr[], char fi[], int m)
         fi[i] = qi + ti;
       }
     }
-    --k;
     l = istep;
+    
   }
   return scale;
 }
